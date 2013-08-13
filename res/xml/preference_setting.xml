@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white">
+	<RingtonePreference
+		android:key="ringtone_setting"
+	  	android:title="@string/sound_setting"
+	  	android:ringtoneType="notification"
+	  	android:defaultValue="defaultRingtone"
+	  	android:showSilent="true"/>
+	<CheckBoxPreference android:key="btn_vibrate_setting"
+		android:title="@string/vibrate_setting" />
+	<CheckBoxPreference android:key="auto_login_setting"
+		android:title="@string/auto_login_setting"/>
+</PreferenceScreen>

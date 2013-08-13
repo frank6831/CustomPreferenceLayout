@@ -1,0 +1,17 @@
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="fill_parent"
+android:layout_width="fill_parent">
+
+    <include
+        android:id="@+id/include_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        layout="@layout/component_titlebar" />
+	<ListView 
+	    android:id="@android:id/list" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/include_title_bar"/>
+</RelativeLayout>

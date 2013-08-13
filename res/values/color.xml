@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	<drawable name="black">#000000</drawable>
+    <color name="color_white">#FFFFFF</color>
+    <drawable name="darkgray">#8080FF</drawable>
+	<drawable name="green">#79991d</drawable>
+	<drawable name="gray">#ADADAD</drawable>
+	<drawable name="transparent_background">#40000000</drawable>
+	<drawable name="halftrans">#e0000000</drawable>
+	<drawable name="tranparent">#00000000</drawable>
+    
+    <color name="color_gray">#ADADAD</color>
+  	<color name="color_dodgerblue">#009FFF</color>
+  	<!-- server login -->
+	<color name="textcolor_serverlogin_tapservertologin">#FF315D95</color>
+	
+	<!-- title bar -->
+    <color name="textcolor_titlebar_title">#FFFFFF</color>
+</resources>
